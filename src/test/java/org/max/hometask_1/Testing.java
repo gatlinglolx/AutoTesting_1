@@ -10,6 +10,7 @@ import java.util.List;
 public class Testing {
     static List<Door> doors;
 
+    //тут можно ипольщовать @BeforeAll
     @BeforeEach
     void createDoors () {
         doors = new ArrayList<>();
